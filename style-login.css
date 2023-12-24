@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body.login {
+  background: url(img/login-background.jpg);
+  background-size: cover;
+}
+
+#login h1 a, .login h1 a {
+  background-image: url(img/dev-logo.png);
+
+}
+
+.login #nav a, 
+.login #nav a:hover {
+  color: #fff;
+}
+
+.login #backtoblog a,
+.login #backtoblog a:hover {
+  color: #fff;
+}
+
+.wp-core-ui .button-primary {
+  background: #A6294F;
+  border-color: #A6294F;
+  color: #fff;
+}
+
+.wp-core-ui .button-primary:hover {
+  background: #A6294F;
+  border-color: #A6294F;
+  color: #fff;
+}
+
+.login form {
+  border: 1px solid #A6294F;
+  border-top-color: rgb(166,41,79);
+  border-right-color: rgb(166,41,79);
+  border-bottom-color: rgb(166,41,79);
+  border-left-color: rgb(166,41,79);
+  border-radius: 5px;
+}
+
+span .dashicons .dashicons-translation {
+  color: #A6294F;
+}
