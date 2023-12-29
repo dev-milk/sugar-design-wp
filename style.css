@@ -753,7 +753,7 @@ post-list
 pagination (default)
 -------------------------------------------*/
 
-.pagination ul {
+/* .pagination ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -799,7 +799,7 @@ pagination (default)
     justify-content: space-between;
     margin: 0 auto; 
   }
-}
+} */
 
 /*-------------------------------------------
 Pager (custom）丸いページネーション

@@ -20,11 +20,12 @@
       </article>
     <?php endwhile;endif; ?>
 
-    <ul class="post-pager">
-      <li><?php previous_post_link('%link', '< Pre'); ?>
-    </li>
-      <li><?php next_post_link('%link', 'Next >'); ?></li>
+    <div class="pager">
+    <ul class="pagination">
+      <li><?php next_post_link('%link', '<<'); ?></li>
+      <li><?php previous_post_link('%link', '>>'); ?></li>
     </ul>
+    </div>
 
   </main>
 

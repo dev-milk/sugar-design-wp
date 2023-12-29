@@ -15,7 +15,7 @@ add_action('wp_enqueue_scripts', 'my_enqueue_styles');
 add_theme_support('post-thumbnails');
 
 /**************************************************
-ページネーション
+ページネーション 
 **************************************************/
 function pagination($pages = '', $range = 2) {
   $showitems = ($range * 2) + 1;
@@ -23,6 +23,7 @@ function pagination($pages = '', $range = 2) {
   global $paged;
   if(empty($paged)) {
     $paged = 1;
+   
   }
 
   if($pages == '') {
@@ -34,10 +35,10 @@ function pagination($pages = '', $range = 2) {
   }
 
   if(1 != $pages) {
-    echo '<div class="pagination">';
-    echo '<ul>';
-    if($paged > 1) {
-      echo '<li class="prev"><a href="' . esc_url(get_pagenum_link($paged - 1)) . '">previous</a></li>';
+    echo '<div class="pager">';
+    echo '<ul class="pagination">';
+    if ($paged < $pages) {
+      echo '<li class="next"><a href="' . esc_url(get_pagenum_link($paged + 1)) . '"><span>«</span></a></li>';
     }
 
     for ($i=1; $i <= $pages; $i++) {
@@ -50,13 +51,17 @@ function pagination($pages = '', $range = 2) {
       }
     }
 
-    if ($paged < $pages) {
-      echo '<li class="next"><a href="' . esc_url(get_pagenum_link($paged + 1)) . '">next</a></li>';
+    if($paged > 1) {
+      echo '<li class="pre"><a href="' . esc_url(get_pagenum_link($paged - 1)) . '">
+      <span>»</span></a></li>';
     }
+
     echo '</ul>';
     echo '</div>';
   }
 }
+
+
 
 /**************************************************
 サイドバーウィジェット
