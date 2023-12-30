@@ -17,16 +17,12 @@
         </ul>
         <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
         <div class="text"><?php the_content(); ?></div>
-      </article>
+      </article> 
     <?php endwhile;endif; ?>
-
-    <div class="pager">
-    <ul class="pagination">
-      <li><?php next_post_link('%link', '<<'); ?></li>
-      <li><?php previous_post_link('%link', '>>'); ?></li>
-    </ul>
-    </div>
-
+    
+    <!-- my_paging_navをここに追加したが反映されない -->
+    <?php my_paging_nav(); ?>
+   
   </main>
 
   <?php get_sidebar(); ?>

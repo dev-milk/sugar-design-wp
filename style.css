@@ -749,140 +749,35 @@ post-list
   }
 }
 
-/*-------------------------------------------
-pagination (default)
--------------------------------------------*/
-
-/* .pagination ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  font-size: 1.8rem;
-}
-.pagination li {
-  padding: 0 10px;
-}
-
-.pagination ul a:hover {
-  opacity: 0.7;
-}
-
-.post-pager {
-  width: 600px;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-}
-
-.post-pager li a {
-  display: inline-block;
-  padding: 6px;
-  text-align: center;
-  color: #A6294F;
-  font-size: 0.9rem;
-  font-weight: 540;
-  border: solid 2px #A6294F;
-  border-radius: 2px;
-  transition: .4s;
-}
-
-
-.post-pager li a:hover {
-  color: #FFF;
-  background-color: #A6294F;
-}
-
-@media screen and (max-width: 600px) {
-  .post-pager {
-    width: 300px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto; 
-  }
-} */
 
 /*-------------------------------------------
-Pager (custom）丸いページネーション
+Pager 四角いページネーション
 -------------------------------------------*/
-.pager .pagination {
+.page-numbers {
   display: flex;
   justify-content: center;
-
+  padding: 0;
+  list-style-position: inside;
+  list-style-type: none;
+  color: #A6294F;
 }
-
-.pager .pagination li {
-  display: inline;
-  padding: 5px;
+.page-numbers li {
   display: inline-block;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  position: relative;
-  border-radius: 50px;
-  color: #A6294F;
 }
-
-
-.pager .pagination li a{
-  vertical-align: middle;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  display:table;
-  color: #A6294F;
-  border:2px solid #A6294F;
-  border-radius: 50px;
-  text-decoration: none;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all  0.3s ease;
-}
-
-.pager .pagination li a span{
-  display:table-cell;
-  vertical-align:middle;
-}
-
-.pager .pagination li a:hover,
-.pager .pagination li a.active{
-  color: #fff;
+.page-numbers a {
+  display: inline-block;
+  padding: .5rem;
+  margin: 0 .2rem .2rem 0;
   background: #A6294F;
-  border-radius: 50px;
+  border: 1px solid #A6294F;
+  color: #fff;
 }
-
-@media only screen and (max-width: 767px){
-  .pager .pagination li{
-    display: none;
-  }
-
-  .pager .pagination li.pre,
-  .pager .pagination li.next{
-    display: inline-block;
-    width: 40%;
-    height: 50px;
-    text-align: center;
-  }
-
-  .pager .pagination li.pre a,
-  .pager .pagination li.next a{
-    width: 100%;
-    text-align: center;
-  }
-
-  .pager .pagination li.pre span::after{
-    content: "前の5件へ";
-  }
-
-  .pager .pagination li.next span::before{
-    content: "次の5件へ";
-  }
-
+.page-numbers span {
+  display: inline-block;
+  padding: .5rem;
+  margin: .2rem;
+  border: 1px solid #A6294F;
 }
-
 /*-------------------------------------------
 ADJUST
 -------------------------------------------*/

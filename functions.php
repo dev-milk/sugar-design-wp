@@ -14,54 +14,45 @@ add_action('wp_enqueue_scripts', 'my_enqueue_styles');
 **************************************************/
 add_theme_support('post-thumbnails');
 
+
 /**************************************************
-ページネーション 
+ページネーション new
 **************************************************/
-function pagination($pages = '', $range = 2) {
-  $showitems = ($range * 2) + 1;
+function my_paging_nav() {
+  //グローバル変数を宣言
+  global $wp_query , $wp_rewrite; 
 
-  global $paged;
-  if(empty($paged)) {
-    $paged = 1;
-   
+  // ページ数が2より小さかったらページネーションを表示しない
+  if ( $wp_query->max_num_pages < 2 ) {
+      return;
   }
+  // ページがあればページ数を取得、なければ1を入れる
+  $paged        = get_query_var( 'paged' ) ? intval( get_query_var( 'paged' ) ) : 1;
+  // パーマリンクの設定をしていたら、それに従い表示する。デフォルトなら「?paged=%#%」で表示する
+  $format  = $wp_rewrite->using_permalinks() ? user_trailingslashit( $wp_rewrite->pagination_base . '/%#%', 'paged' ) : '?paged=%#%';
 
-  if($pages == '') {
-    global $wp_query;
-    $pages = $wp_query->max_num_pages;
-    if(!$pages) {
-      $pages = 1;
-    }
-  }
+  //ページネーションの設定
+  $links = paginate_links( array(
+      'base'     => get_pagenum_link() . '%_%', //URLのベース
+      'format'   => $format, //ページネーションのリンクの構造
+      'total'    => $wp_query->max_num_pages, //ページ数（全ページを指定）
+      'current'  => $paged, //現在のページの位置
+      'mid_size' => 1, //現在のページの両側に表示する数
+      'prev_text' => 'pre',
+      'next_text' => 'next',
+  ) );
 
-  if(1 != $pages) {
-    echo '<div class="pager">';
-    echo '<ul class="pagination">';
-    if ($paged < $pages) {
-      echo '<li class="next"><a href="' . esc_url(get_pagenum_link($paged + 1)) . '"><span>«</span></a></li>';
-    }
+  if ( $links ) :
 
-    for ($i=1; $i <= $pages; $i++) {
-      if (1 != $pages &&(!($i >= $paged+$range+1 || $i <= $paged-$range-1) || $pages <= $showitems )) {
-        if ($paged == $i) {
-          echo '<li class="active">' .$i. '</li>';
-        } else {
-          echo '<li><a href="' . esc_url(get_pagenum_link($i)) . '">' .$i. '</a></li>';
-        }
-      }
-    }
-
-    if($paged > 1) {
-      echo '<li class="pre"><a href="' . esc_url(get_pagenum_link($paged - 1)) . '">
-      <span>»</span></a></li>';
-    }
-
-    echo '</ul>';
-    echo '</div>';
-  }
+  ?>
+  <!-- 表示されるHTML -->
+  <nav role="navigation">
+      <ul class="page-numbers">
+          <li><?php echo $links; ?></li>
+      </ul>
+  </nav>
+  <?php endif; 
 }
-
-
 
 /**************************************************
 サイドバーウィジェット

@@ -5,12 +5,10 @@
     <?php
       if (have_posts()):
         get_template_part('loop');
-
-        if (function_exists("pagination")) {
-          pagination($wp_query->max_num_pages);
-        }
+     
       endif;
     ?>
+     <?php my_paging_nav(); ?>
   </main>
 
 

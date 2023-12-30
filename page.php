@@ -10,6 +10,10 @@
       </article>
      
     <?php endwhile;endif; ?>
+
+    <!-- my_paging_navをここに追加したが反映されない -->
+    <?php my_paging_nav(); ?>
+
   </main>
 
   <?php get_sidebar(); ?>
