@@ -64,7 +64,6 @@ header::before{
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0,0,0,0.18);
 }
 
 .blog-header {
@@ -80,11 +79,11 @@ header::before{
 
 .site-name {
   line-height: 200px;
-  color: #fff;
+  color: #A6294F;
   font-size: 1.8rem;
   font-weight: 600;
-  text-shadow: 1px 3px 3px #333;
-}
+  text-shadow: 2px 2px 0 #fff,2px -2px 0 #fff,-2px 2px 0 #fff,-2px -2px 0 #fff;
+} 
 
 .site-text {
   position: absolute;
@@ -96,11 +95,12 @@ header::before{
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
-  color: #fff;
+  color: #A6294F;
   font-size: 1.2rem;
   font-weight: 300;
+  text-shadow: 1px 1px 0 #fff,1px -1px 0 #fff,-1px 1px 0 #fff,-1px -1px 0 #fff;
   overflow-wrap: break-word;
-  text-shadow: 1px 3px 3px #333;
+  
 }
 
 /*-------------------------------------------
@@ -150,7 +150,7 @@ main menu
 
 }
 .pc-menu > ul > li > a:hover {
-  background: rgba(166,41,79,0.2);
+  border-bottom: 3px solid #A6294F;
 }
 
 @media screen and (min-width: 1280px) {
@@ -564,7 +564,7 @@ SP
   header {
     max-width: 100%;
     height: auto;
-    background: linear-gradient(rgba(166, 41, 79, 0.9), rgba(166, 41, 79, 0.5)),url(img/header-img.jpg);
+    background: url(img/header-img.jpg);
     background-size:cover; 
   }
 
