@@ -27,6 +27,8 @@ a :hover {
 img {
   max-width: 100%;
   height: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius:20px;
 }
 
 li {
@@ -321,6 +323,9 @@ main .text {
   margin-bottom: 10px;
   color: #777;
 }
+.item-center {
+  text-align: center;
+}
 
 .readmore {
   display: inline-block;
@@ -343,6 +348,7 @@ main .text {
 
 .readmore:hover {
   background: #A6294F;
+  color: #FFF;
 }
 
 .img-text {

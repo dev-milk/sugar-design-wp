@@ -24,6 +24,8 @@
         }
       ?>
     </div>
+    <div class="item-center">
     <div class="readmore"><a href="<?php the_permalink(); ?>">READ MORE</a></div>
+    </div>
   </article>
 <?php endwhile; ?>

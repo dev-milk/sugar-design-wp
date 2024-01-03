@@ -11,8 +11,13 @@
      
     <?php endwhile;endif; ?>
 
-    <!-- my_paging_navをここに追加したが反映されない -->
-    <?php my_paging_nav(); ?>
+    <!-- 前の記事　次の記事 -->
+    <div class="navigation">
+    <ul class="page-numbers">
+    <li class="navileft"><?php next_post_link('« %link', 'Next', TRUE, ''); ?></li>
+    <li class="naviright"><?php previous_post_link('%link »', 'Pre', TRUE, ''); ?></li>
+    </ul>
+    </div>
 
   </main>
 

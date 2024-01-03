@@ -25,8 +25,8 @@
     <ul class="page-numbers">
     <li class="navileft"><?php next_post_link('« %link', 'Next', TRUE, ''); ?></li>
     <li class="naviright"><?php previous_post_link('%link »', 'Pre', TRUE, ''); ?></li>
-</ul>
-</div>
+    </ul>
+    </div>
    
   </main>
 

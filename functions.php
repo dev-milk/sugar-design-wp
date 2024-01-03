@@ -38,8 +38,8 @@ function my_paging_nav() {
       'total'    => $wp_query->max_num_pages, //ページ数（全ページを指定）
       'current'  => $paged, //現在のページの位置
       'mid_size' => 1, //現在のページの両側に表示する数
-      'prev_text' => 'pre',
-      'next_text' => 'next',
+      'prev_text' => 'Next',
+      'next_text' => 'Pre',
   ) );
 
   if ( $links ) :
