@@ -12,7 +12,7 @@
         </p>
       </section>
     </div>
-    <div class="copyright">© devsugar<a href="http://localhost/wordpress/stylelist/">&nbsp;original theme</a></div>
+    <div class="copyright">© devsugar<a href="https://github.com/dev-milk/sugar-design-wp">&nbsp;original theme</a></div>
     <a href="<?php echo esc_url(home_url('#top')); ?>" class="gotop">TOP</a>
   </footer></body>
 </html>
