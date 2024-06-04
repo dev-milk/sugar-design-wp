@@ -453,14 +453,14 @@ contact
 }
 #contact .button input {
   width: 200px;
-  background-color: #7a1c39;
+  background-color: #A6294F;
   color: #fff;
   padding: 15px 0;
-  border: solid 1px #7a1c39;
+  border: solid 1px #A6294F;
 }
 #contact .button input:hover {
-  background-color: #fff;
-  color: #7a1c39;
+  background-color: rgba(166, 41, 79, 0.9);
+  color: #fff;
 }
 
 /*-------------------------------------------
@@ -786,8 +786,8 @@ Pagerページネーション
 }
 
 .page-numbers a:hover {
-  background: #6b1932;
-  border: 1px solid #6b1932;
+  background: rgba(166, 41, 79, 0.9);
+  border: 1px solid rgba(166, 41, 79, 0.9);
 }
 
 
