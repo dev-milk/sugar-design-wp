@@ -328,27 +328,27 @@ main .text {
 
 .readmore {
   display: inline-block;
-  padding: 0.6em;
   text-decoration: none;
   text-align: center;
   font-size: 0.9rem;
-  border: solid 2px #A6294F;
-  border-radius: 2px;
-  transition: .4s;
 }
 
 .readmore a {
   color: #A6294F;
+  border: solid 2px #A6294F;
+  border-radius: 2px;
+  background:transparent;
+  padding: 0.6em;
+  transition: .4s;
 }
 
 .readmore a:hover {
-  color: #FFF;
+  color: #fff;
+  border-radius: 2px;
+  background:#A6294F;
+  padding: 0.6em;
 }
 
-.readmore:hover {
-  background: #A6294F;
-  color: #FFF;
-}
 
 .img-text {
   font-size: 0.9rem;
@@ -732,7 +732,7 @@ post-list
   transition: .4s;
 }
 
-.btn-post:hover {
+.btn-post :hover {
   background: #A6294F;
   color: #fff;
 }
@@ -756,7 +756,7 @@ post-list
 
 
 /*-------------------------------------------
-Pager 四角いページネーション
+Pagerページネーション
 -------------------------------------------*/
 .page-numbers {
   display: flex;
@@ -768,21 +768,28 @@ Pager 四角いページネーション
 }
 .page-numbers li {
   display: inline-block;
+  font-size: 0.8rem;
 }
-.page-numbers a {
+
+.page-numbers a, .page-numbers span {
   display: inline-block;
-  padding: .5rem;
+  padding: 0 .5rem .1rem;
   margin: 0 .2rem .2rem 0;
   background: #A6294F;
-  border: 1px solid #A6294F;
+  border: 2px solid #A6294F;
   color: #fff;
+  border-radius: 50%;  
+  width: 2rem;  /* 幅設定 */
+  height: 2rem;  /* 高さ設定 */
+  text-align: center;  /* 中央配置 */
+  line-height: 2rem;  /* 縦中央配置 */
 }
-.page-numbers span {
-  display: inline-block;
-  padding: .5rem;
-  margin: .2rem;
-  border: 1px solid #A6294F;
+
+.page-numbers a:hover {
+  background: #6b1932;
+  border: 1px solid #6b1932;
 }
+
 
 
 /*-------------------------------------------
