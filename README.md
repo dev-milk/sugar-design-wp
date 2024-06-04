@@ -7,7 +7,7 @@ devsugarは、オリジナルのWordPressテーマです。
 ライブレビュー
 --------------
 
-https://devsugar.awe.jp/
+https://sugar.geo.jp/
 
 
 利用規約はソース内 license.txtを参照ください。
