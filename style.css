@@ -151,8 +151,10 @@ main menu
 
 }
 .pc-menu > ul > li > a:hover {
-  border-bottom: 3px solid #A6294F;
+  color: #A6294F;
+  font-weight: 700;
 }
+  
 
 @media screen and (min-width: 1280px) {
   .sp-menu {
@@ -569,7 +571,7 @@ SP
   header {
     max-width: 100%;
     height: auto;
-    background: url(img/header-img.jpg);
+    background: url(img/header-img-sp.jpg);
     background-size:cover; 
   }
 

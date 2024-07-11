@@ -13,7 +13,6 @@
 <body id="top">
   <header>
     <section class="blog-header">
-      <h1 class="site-name">Sugar WP Theme</h1>
       <p class="site-text">Ceci est un thème original de devsugar.</p>
     </section>
     <div class="main-menu">
