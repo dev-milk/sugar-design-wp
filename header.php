@@ -13,7 +13,6 @@
 <body id="top">
   <header>
     <section class="blog-header">
-      <p class="site-text">Ceci est un thème original de devsugar.</p>
     </section>
     <div class="main-menu">
       <div class="pc-menu">
