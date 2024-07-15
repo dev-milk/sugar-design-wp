@@ -98,3 +98,4 @@ function admin_favicon() {
   echo '<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />';
  }
  add_action('admin_head', 'admin_favicon');
+
