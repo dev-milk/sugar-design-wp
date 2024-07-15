@@ -8,7 +8,7 @@
       <section class="item">
         <h3 class="footer-title">About</h3>
         <p>
-        フランスと歴史が好きな有閑マダムを目指す普通の会社員です。こちらのブログは構築中です。
+        このブログは作者のオリジナルテーマを使っています。
         </p>
       </section>
     </div>
