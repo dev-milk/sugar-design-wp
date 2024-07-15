@@ -467,7 +467,7 @@ footer
 -------------------------------------------*/
 #footer {
   font-size: 0.875rem;
-  background-color: #7a1c39;
+  background-color: #333;
   color: #fff;
 }
 #footer .content {
@@ -506,7 +506,6 @@ footer
 #footer .footer-title {
   font-size: 1.3rem;
   font-weight: 600;
-  /* font-family: 'Times New Roman', Times, serif; */
   margin-bottom: 20px;
 
 }
@@ -518,18 +517,19 @@ back to top
   width: 60px;
   height: 60px;
   box-sizing: border-box;
-  background: #FFF;
+  background: #A6294F;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all  0.3s ease;
   border: 2px solid #A6294F;
-  border-radius: 5px;
+  /* border-radius: 5px; */
+  border-radius: 50%;
   padding-top: 30px;
   text-align: center;
   font-size: 0.8rem;
   text-decoration: none;
-  color: #A6294F;
+  color: #fff;
   opacity: 1.0;
   position: fixed;
   bottom: 10px;
@@ -539,8 +539,8 @@ back to top
 .gotop::before{
   content: "";
   display: block;
-  border-top: 2px solid #A6294F;
-  border-right: 2px solid #A6294F;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
   width: 25%;
   height: 25%;
   top: 25%;
@@ -551,8 +551,10 @@ back to top
   transform: rotate(-45deg);
 }
 .gotop:hover{
-  background: #A6294F;
+  background: #c44168;
   color: #FFF;
+  border: 2px solid #c44168;
+  
 }
 
 .gotop:hover::before{
