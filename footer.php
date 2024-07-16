@@ -1,3 +1,6 @@
+<div id="re-top">
+	<a href="#top" class="gotop">TOP</a>
+</div>
 <footer id="footer">
     <div class="content wrapper">
       <section class="item">
@@ -12,8 +15,7 @@
         </p>
       </section>
     </div>
-    <div class="copyright">© sugar.geo.jp</a></div>
-    <a href="<?php echo esc_url(home_url('#top')); ?>" class="gotop">TOP</a>
+    <div class="copyright">© sugar.geo.jp</a></div>  
   </footer></body>
 </html>
 <?php wp_footer(); ?>
