@@ -54,7 +54,7 @@ header {
   background-size: cover;
   display:inline-block;
   color: #333;
-  border-bottom: #A6294F solid 8px;
+  border-top: #A6294F solid 8px;
   position: relative;
 }
 
@@ -112,6 +112,9 @@ main menu
   margin: 0 auto;
   display: flex;
   width: 1280px;
+  border-top: solid 1px #777;
+  border-bottom: solid 1px #777;
+
 }
 
 .mr-8 {
@@ -126,6 +129,10 @@ main menu
 }
 
 @media screen and (max-width: 1279px) {
+  .main-menu {
+    border-top: none;
+    border-bottom: none;
+  }
   .pc-menu {
     display: none;
   }
@@ -147,7 +154,7 @@ main menu
   display: block;
   text-decoration: none;
   color: #333;
-  line-height: 60px;
+  line-height: 45px;
 
 }
 .pc-menu > ul > li > a:hover {
@@ -257,7 +264,7 @@ main article {
 
 main .article-title {
   font-size: 1.6rem;
-  margin: 10px 0 15px 0;
+  margin: 20px 0 15px 0;
   color: #333;
   font-family: "Helvetica Neue", "Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo, sans-serif;
   position: relative;
