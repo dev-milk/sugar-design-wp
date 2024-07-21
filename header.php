@@ -49,7 +49,7 @@
               <a class="sp-menu__link" href="<?php echo esc_url(home_url('/timeline/')); ?>"><i class="fa-solid fa-clock mr-8"></i>Timeline</a>
             </li>
             <li class="sp-menu__item">
-              <a class="sp-menu__link" href="<?php echo esc_url(home_url('/contact/')); ?>"><i class="fa-regular fa-envelope mr-8"></i>Contact</a>
+              <a class="sp-menu__link" href="https://devmilk.biz/portfolio/form/"><i class="fa-regular fa-envelope mr-8"></i>Contact</a>
             </li>
           </ul>
         </div>
