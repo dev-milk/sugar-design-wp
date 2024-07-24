@@ -54,7 +54,7 @@ header {
   background-size: cover;
   display:inline-block;
   color: #333;
-  border-top: #A6294F solid 8px;
+  border-top: #323232 solid 8px;
   position: relative;
 }
 
@@ -111,7 +111,7 @@ header::before{
   background:url(img/header-img-md.jpg);
   background-size: cover;
   display:inline-block;
-  border-top: #A6294F solid 8px;
+  border-top: #323232 solid 8px;
   position: relative;
   }
 }
@@ -191,7 +191,7 @@ main menu
   justify-content: center;
   align-items: center;
   z-index: 90;
-  background: #A6294F;
+  background: #b92125;
   border-radius: 5px;
 }
 .sp-menu__box span,
@@ -201,8 +201,8 @@ main menu
   display: block;
   height: 3px;
   width: 25px;
-  border-radius: 3px;
-  background: #ffffff;
+  border-radius: 1px;
+  background: #fff;
   position: absolute;
 }
 .sp-menu__box span:before {
@@ -235,14 +235,14 @@ main menu
   top: 0;
   left: 100%;
   z-index: 80;
-  background-color: #A6294F;
+  background-color: #b39d74;
   transition: all 0.5s;
 }
 .sp-menu__list {
   padding: 70px 10px 0;
 }
 .sp-menu__item {
-  border-bottom: solid 1px #ffffff;
+  border-bottom: solid 1px #fff;
   list-style: none;
 }
 .sp-menu__link {
@@ -250,7 +250,7 @@ main menu
   width: 100%;
   font-size: 1.0rem;
   box-sizing: border-box;
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   padding: 9px 15px 10px 5px;
 }
@@ -286,7 +286,7 @@ main .article-title:after {
   position: absolute;
   content: " ";
   display: block;
-  border-bottom: solid 3px #A6294F;
+  border-bottom: solid 3px #b92125;
   bottom: -4px;
   width: 20%;
 }
@@ -355,8 +355,8 @@ main .text {
 }
 
 .readmore a {
-  color: #A6294F;
-  border: solid 2px #A6294F;
+  color: #b92125;
+  border: solid 2px #b92125;
   border-radius: 2px;
   background:transparent;
   padding: 0.6em;
@@ -366,7 +366,7 @@ main .text {
 .readmore a:hover {
   color: #fff;
   border-radius: 2px;
-  background:#A6294F;
+  background:#b92125;
   padding: 0.6em;
 }
 
@@ -486,7 +486,7 @@ footer
 -------------------------------------------*/
 #footer {
   font-size: 0.875rem;
-  background-color: #333;
+  background-color: #323232;
   color: #fff;
 }
 #footer .content {
@@ -536,13 +536,12 @@ back to top
   width: 60px;
   height: 60px;
   box-sizing: border-box;
-  background: #A6294F;
+  background: #b39d74;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all  0.3s ease;
-  border: 2px solid #A6294F;
-  /* border-radius: 5px; */
+  border: 2px solid #b39d74;
   border-radius: 50%;
   padding-top: 30px;
   text-align: center;
@@ -570,9 +569,9 @@ back to top
   transform: rotate(-45deg);
 }
 .gotop:hover{
-  background: #c44168;
-  color: #FFF;
-  border: 2px solid #c44168;
+  background:rgba(179,157,116,.7);
+  color: #fff;
+  border: 2px solid #b39d74;
   
 }
 
