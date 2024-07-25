@@ -167,11 +167,14 @@ main menu
   text-decoration: none;
   color: #333;
   line-height: 45px;
-
+  padding: 2px 4px;
+  
 }
 .pc-menu > ul > li > a:hover {
-  color: #b92125;
-  font-weight: 700;
+  background-color:#323232 ;
+  display: inline-block;
+  color: #fff;
+  transition : 0.8s;
 }
   
 
@@ -439,6 +442,7 @@ aside
 
 
 
+
 /*-------------------------------------------
 contact
 -------------------------------------------*/
@@ -530,6 +534,7 @@ footer
   margin-bottom: 20px;
   padding-bottom: 10px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #bdd6e9;
   border-bottom: solid 1px #fff;
 
 }
@@ -553,6 +558,7 @@ back to top
   font-size: 0.8rem;
   text-decoration: none;
   color: #fff;
+  text-shadow: 1px 2px 3px #333; 
   opacity: 1.0;
   position: fixed;
   bottom: 10px;
@@ -574,7 +580,7 @@ back to top
   transform: rotate(-45deg);
 }
 .gotop:hover{
-  background:rgba(179,157,116,.7);
+  background:rgba(179,157,116,.8);
   color: #fff;
   border: 2px solid #b39d74;
   
@@ -658,7 +664,6 @@ SP
   #footer .footer-title{
    font-size: 1.4rem;
    margin-bottom: 1.2rem;
-    
   }
 
   .readmore-post {
@@ -715,7 +720,7 @@ Timeline
     content: '';
     width: 12px;
     height: 12px;
-    background: #A6294F;
+    background: #b92125;
     position: absolute;
     left: 106px;
     top: 24px;
@@ -749,7 +754,7 @@ post-list
   min-width: 100px;
 	max-width: 100%;
 	vertical-align: top;
-  border: solid 1.5px #A6294F;
+  border: solid 1.5px #b92125;
 }
 
 .readmore-post {
@@ -762,14 +767,14 @@ post-list
   padding: 0.6em 1.0rem;
   text-decoration: none;
   font-size: 0.8rem;
-  color: #A6294F;
-  border: solid 1px #A6294F;
+  color: #b92125;
+  border: solid 1px #b92125;
   border-radius: 2px;
   transition: .4s;
 }
 
 .btn-post :hover {
-  background: #A6294F;
+  background: #b92125;
   color: #fff;
 }
 
@@ -789,7 +794,7 @@ Pagerページネーション
   padding: 0;
   list-style-position: inside;
   list-style-type: none;
-  color: #A6294F;
+  color: #b92125;
 }
 .page-numbers li {
   display: inline-block;
@@ -800,8 +805,8 @@ Pagerページネーション
   display: inline-block;
   padding: 0 .5rem .1rem;
   margin: 0 .2rem .2rem 0;
-  background: #A6294F;
-  border: 2px solid #A6294F;
+  background: #b92125;
+  border: 2px solid #b92125;
   color: #fff;
   border-radius: 50%;  
   width: 2rem;  /* 幅設定 */
@@ -811,8 +816,8 @@ Pagerページネーション
 }
 
 .page-numbers a:hover {
-  background: rgba(166, 41, 79, 0.9);
-  border: 1px solid rgba(166, 41, 79, 0.9);
+  background: rgba(185, 33, 37, 0.9);
+  border: 1px solid rgba(185, 33, 37, 0.9);
 }
 
 
@@ -851,7 +856,7 @@ h2.wp-block-heading {
     font-size: 24px;
     padding: 0.25em 0.8em;
     background: transparent;
-    border-left: solid 6px #A6294F;
+    border-left: solid 6px #b92125;
     margin-bottom: 1.62em;
     font-family: "Helvetica Neue", "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
 }
@@ -861,7 +866,7 @@ h3.wp-block-heading {
   border-left: none;
   border-right: none;
   border-top: none;
-  border-bottom: 3px dotted #A6294F;
+  border-bottom: 3px dotted #b92125;
   font-size: 20px;
   padding: 9px 12px;
   margin-left: 6px;
