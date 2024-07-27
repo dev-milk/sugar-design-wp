@@ -884,7 +884,7 @@ h4.wp-block-heading {
   border-top: none;
   border-bottom: 2px dotted #666;
   font-size: 18px;
-  padding: 12px 8px;
+  padding: 0.25em;
   margin-left: 6px;
   margin-bottom: 1.62em;
 }
