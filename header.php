@@ -25,7 +25,7 @@
             <a href="<?php echo esc_url(home_url('/archive/')); ?>"><i class="fa-regular fa-folder-open mr-8"></i>Archive</a>
           </li>
           <li>
-            <a href="<?php echo esc_url(home_url('/timeline/')); ?>"><i class="fa-solid fa-clock mr-8"></i>Timeline</a>
+            <a href="<?php echo esc_url(home_url('/chronology/')); ?>"><i class="fa-solid fa-clock mr-8"></i>Chronology</a>
           </li>
           <li>
           <a href="https://devmilk.biz/portfolio/form/" target="_blank"><i class="fa-regular fa-envelope mr-8"></i>Contact</a>
@@ -46,7 +46,7 @@
               <a class="sp-menu__link" href="<?php echo esc_url(home_url('/archive/')); ?>"><i class="fa-regular fa-folder-open mr-8"></i>Archive</a></a>
             </li>
             <li class="sp-menu__item">
-              <a class="sp-menu__link" href="<?php echo esc_url(home_url('/timeline/')); ?>"><i class="fa-solid fa-clock mr-8"></i>Timeline</a>
+              <a class="sp-menu__link" href="<?php echo esc_url(home_url('/chronology/')); ?>"><i class="fa-solid fa-clock mr-8"></i>Chronology</a>
             </li>
             <li class="sp-menu__item">
               <a class="sp-menu__link" href="https://devmilk.biz/portfolio/form/"><i class="fa-regular fa-envelope mr-8"></i>Contact</a>
