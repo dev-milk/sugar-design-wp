@@ -849,3 +849,7 @@ p.sub-text {
   border-radius: 3px;
 }
 
+#searchform [type=submit] {
+  background-color: transparent;
+}
+
