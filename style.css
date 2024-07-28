@@ -836,10 +836,16 @@ p.sub-text {
   font-size: 0.9rem;
 }
 
-#wpcf7-f44-p45-o1 input, textarea {
+#wpcf7-f44-p45-o1 input {
   border: 1px solid #666;
   min-width: 96%;
   height: 2em;
+}
+
+#wpcf7-f44-p45-o1 textarea {
+  border: 1px solid #666;
+  min-width: 96%;
+  height: 12em;
 }
 
 [type=submit] {
