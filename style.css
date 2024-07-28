@@ -821,8 +821,6 @@ h4.wp-block-heading {
   margin-bottom: 1.62em;
 }
 
-
-
 div.wp-block-image {
   margin-top: 36px;
 }
@@ -835,6 +833,10 @@ div.wp-block-image {
 p.sub-text {
   font-size: 0.9rem;
 }
+
+/*-------------------------------------------
+CONTACT7 form custom
+-------------------------------------------*/
 
 #wpcf7-f44-p45-o1 input {
   border: 1px solid #666;
