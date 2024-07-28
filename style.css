@@ -360,21 +360,19 @@ main .text {
 }
 
 .readmore a {
-  color: #b92125;
+  color: #fff;
   border: solid 2px #b92125;
   border-radius: 2px;
-  background:transparent;
+  background:#b92125;
   padding: 0.6em;
   transition: .4s;
 }
 
 .readmore a:hover {
-  color: #fff;
   border-radius: 2px;
-  background:#b92125;
+  background:rgba(185, 33, 37, 0.7);
   padding: 0.6em;
 }
-
 
 .img-text {
   font-size: 0.9rem;
@@ -383,8 +381,6 @@ main .text {
   margin-top: 5px;
   color: #666;
 }
-
-
 
 /*-------------------------------------------
 aside
@@ -440,7 +436,6 @@ aside
 .archive li a:hover {
   opacity: 0.7;
 }
-
 
 
 
@@ -758,31 +753,14 @@ post-list
   border: solid 1.5px #b92125;
 }
 
-.readmore-post {
-  text-align: end;
-  margin-top: 3px;
-}
-
-.btn-post {
-  display: inline-block;
-  padding: 0.6em 1.0rem;
-  text-decoration: none;
-  font-size: 0.8rem;
-  color: #b92125;
-  border: solid 1px #b92125;
-  border-radius: 2px;
-  transition: .4s;
-}
-
-.btn-post :hover {
-  background: #b92125;
-  color: #fff;
-}
-
 .text_content {
   margin-top: -20px;
 }
 
+.readmore-post {
+  text-align: end;
+  margin: 5px 0 5px;
+}
 
 
 
