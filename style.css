@@ -46,7 +46,7 @@ h1, h2, h3, h4 {
 
 
 /*-------------------------------------------
-header
+Header
 -------------------------------------------*/
 header {
   width: 100%;
@@ -118,7 +118,7 @@ header::before{
 }
 
 /*-------------------------------------------
-main menu
+Main menu
 -------------------------------------------*/
 
 .main-menu {
@@ -261,7 +261,7 @@ main menu
 
 
 /*-------------------------------------------
-contents
+Contents
 -------------------------------------------*/
 
 #container {
@@ -383,7 +383,7 @@ main .text {
 }
 
 /*-------------------------------------------
-aside
+Aside
 -------------------------------------------*/
 #sidebar {
   width: 28%;
@@ -438,7 +438,7 @@ aside
 }
 
 /*-------------------------------------------
-footer
+Footer
 -------------------------------------------*/
 #footer {
   font-size: 0.875rem;
@@ -457,6 +457,24 @@ footer
 
 #footer p {
   color:#fff;
+}
+
+#footer ul {
+  list-style: none;
+}
+
+#footer ul li {
+  float: left;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+#footer a {
+  transition: .4s;
+}
+
+#footer a:hover {
+  opacity: 0.8;
 }
 
 #footer .footer-logo {
@@ -489,7 +507,7 @@ footer
 
 }
 /*-------------------------------------------
-back to top
+Back to top
 -------------------------------------------*/
 .gotop{
   display: block;
@@ -561,7 +579,6 @@ SP
 
   nav ul {
     flex-direction: column;
-  
   }
  
   .wrapper {
@@ -679,7 +696,7 @@ Timeline
 }
 
 /*-------------------------------------------
-post-list
+Post-list
 -------------------------------------------*/
 .post-list {
   display: flex;

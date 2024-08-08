@@ -4,19 +4,21 @@
     <g transform="matrix(13.8276,0,0,8.54286,-331.862,-384.429)">
         <rect x="24" y="45" width="29" height="35" style="fill:white;"/>
     </g>
-    <g transform="matrix(13.7931,0,0,5.71429,-331.034,-257.143)">
-        <rect x="24" y="45" width="29" height="35" style="fill:rgb(185,33,37);"/>
-    </g>
-    <g transform="matrix(4.58621,0,0,5.71429,-110.069,-257.143)">
-        <rect x="24" y="45" width="29" height="35" style="fill:rgb(189,214,233);"/>
-    </g>
-    <g transform="matrix(4.58621,0,0,5.71429,156.06,-257.143)">
-        <rect x="24" y="45" width="29" height="35" style="fill:rgb(179,157,116);"/>
+    <g>
+        <g transform="matrix(13.7931,0,0,5.71429,-331.034,-257.143)">
+            <rect x="24" y="45" width="29" height="35" style="fill:rgb(185,33,37);"/>
+        </g>
+        <g transform="matrix(4.58621,0,0,5.71429,-111.069,-257.143)">
+            <rect x="24" y="45" width="29" height="35" style="fill:rgb(189,214,233);"/>
+        </g>
+        <g transform="matrix(4.58621,0,0,5.71429,157.06,-257.143)">
+            <rect x="24" y="45" width="29" height="35" style="fill:rgb(179,157,116);"/>
+        </g>
     </g>
     <g transform="matrix(0.990099,0,0,1.03627,-244.554,-241.418)">
         <ellipse cx="449" cy="420.5" rx="101" ry="96.5" style="fill:white;"/>
     </g>
-    <g id="マダム" transform="matrix(0.116067,0,0,0.119248,-435.653,-522.876)">
+    <g id="マダム" transform="matrix(0.109559,0,0,0.112562,-390.753,-477.227)">
         <use xlink:href="#_Image1" x="4440" y="5428" width="1846px" height="1549px"/>
     </g>
     <defs>
