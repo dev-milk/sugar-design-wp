@@ -600,10 +600,13 @@ SP
   #sidebar {
     width: 100%;
     padding: 0;
+    
   }
 
   .author {
-    margin-top: 30px;
+    width:50%;
+    padding-top: 30px;
+    margin: 0 auto;
   }
 
   #contact dl {
