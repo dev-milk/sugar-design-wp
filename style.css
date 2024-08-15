@@ -854,30 +854,31 @@ p.sub-text {
   font-size: 0.9rem;
 }
 
+#searchform [type=submit] {
+  background-color: transparent;
+}
+
 /*-------------------------------------------
 CONTACT7 form custom
 -------------------------------------------*/
 
-#wpcf7-f44-p45-o1 input {
+#wpcf7-f200-p201-o1 input {
   border: 1px solid #666;
   min-width: 96%;
   height: 2em;
 }
 
-#wpcf7-f44-p45-o1 textarea {
+#wpcf7-f200-p201-o1 textarea {
   border: 1px solid #666;
   min-width: 96%;
   height: 12em;
 }
 
-[type=submit] {
+#wpcf7-f200-p201-o1 [type=submit] {
   cursor: pointer;
   background-color: #333 ;
   color: #fff;
   border-radius: 3px;
 }
 
-#searchform [type=submit] {
-  background-color: transparent;
-}
 

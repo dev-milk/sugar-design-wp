@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,7 +20,7 @@
         <ul>
           <li>
             <a href="<?php echo esc_url(home_url()); ?>">
-            <i class="fa-solid fa-bars mr-8"></i>Home</a>
+              <i class="fa-solid fa-bars mr-8"></i>Home</a>
           </li>
           <li>
             <a href="<?php echo esc_url(home_url('/archive/')); ?>"><i class="fa-regular fa-folder-open mr-8"></i>Archive</a>
@@ -28,7 +29,7 @@
             <a href="<?php echo esc_url(home_url('/chronology/')); ?>"><i class="fa-solid fa-clock mr-8"></i>Chronology</a>
           </li>
           <li>
-          <a href="https://devmilk.biz/portfolio/form/" target="_blank"><i class="fa-regular fa-envelope mr-8"></i>Contact</a>
+            <a href="<?php echo esc_url(home_url('/contact/')); ?>"><i class="mr-8"></i>Contact</a>
           </li>
         </ul>
       </div>
@@ -54,5 +55,5 @@
           </ul>
         </div>
       </div>
-    </div>   
-  </header> 
+    </div>
+  </header>
