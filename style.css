@@ -881,4 +881,11 @@ CONTACT7 form custom
   border-radius: 3px;
 }
 
+/*-------------------------------------------
+reCapcha 位置調整
+-------------------------------------------*/
+.grecaptcha-badge{
+  margin-bottom: 60px;
+}
+
 
