@@ -41,19 +41,21 @@
         <div class="sp-menu__content">
           <ul class="sp-menu__list">
             <li class="sp-menu__item">
-              <a class="sp-menu__link" href="<?php echo esc_url(home_url()); ?>"><i class="fa-solid fa-bars mr-8"></i>Home</a>
+              <a class="sp-menu__link" href="<?php echo esc_url(home_url()); ?>"><i class="mr-8"></i>Home</a>
             </li>
             <li class="sp-menu__item">
-              <a class="sp-menu__link" href="<?php echo esc_url(home_url('/archive/')); ?>"><i class="fa-regular fa-folder-open mr-8"></i>Archive</a></a>
+              <a class="sp-menu__link" href="<?php echo esc_url(home_url('/archive/')); ?>"><i class="mr-8"></i>Archive</a></a>
             </li>
             <li class="sp-menu__item">
-              <a class="sp-menu__link" href="<?php echo esc_url(home_url('/chronology/')); ?>"><i class="fa-solid fa-clock mr-8"></i>Chronology</a>
+              <a class="sp-menu__link" href="<?php echo esc_url(home_url('/chronology/')); ?>"><i class="mr-8"></i>Chronology</a>
             </li>
             <li class="sp-menu__item">
-              <a class="sp-menu__link" href="https://devmilk.biz/portfolio/form/"><i class="fa-regular fa-envelope mr-8"></i>Contact</a>
+            <a class="sp-menu__link" href="<?php echo esc_url(home_url('/contact/')); ?>"><i class="mr-8"></i>Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </div>
+    <?php echo custom_breadcrumbs(); ?>
+
   </header>

@@ -267,8 +267,8 @@ Contents
 #container {
   display: flex;
   justify-content: space-between;
-  margin-top: 32px;
-  margin-bottom: 60px;
+  /* margin-top: 20px; */
+  margin-bottom: 40px;
 }
 
 main {
@@ -646,7 +646,6 @@ SP
     width: 100%;
   }
 
- 
 }
 
 /*-------------------------------------------
@@ -773,7 +772,39 @@ Pagerページネーション
   border: 1px solid rgba(185, 33, 37, 0.9);
 }
 
-
+/*-------------------------------------------
+Breadcrumbs
+-------------------------------------------*/
+.breadcrumbsWrap{
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 0 16px;
+  font-size: 12px;
+  color: #777;
+  white-space: nowrap;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.breadcrumbs{
+  display: flex;
+  align-items: center;
+}
+.breadcrumbs .home{
+    color: #777;
+}
+.breadcrumbs .arrow{
+  display: inline-block;
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-top: solid 1.5px #aaa;
+  border-right: solid 1.5px #aaa;
+  margin-right: 10px;
+  margin-left: 10px;
+  transform: rotate(45deg);
+}
 
 /*-------------------------------------------
 ADJUST
