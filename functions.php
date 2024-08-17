@@ -150,11 +150,6 @@ function custom_breadcrumbs() {
 
   // 固定ページの場合
   elseif (is_page()) {
-      // 親ページがあれば追加
-      // if ($post->post_parent) {
-      //     $parent_id = $post->post_parent;
-      //     $breadcrumbs .= ' <span class="arrow"></span> <a href="' . get_permalink($parent_id) . '">' . get_the_title($parent_id) . '</a>';
-      // }
 
       // 固定ページのタイトルを追加
       $breadcrumbs .= ' <span class="arrow"></span> ' . get_the_title();
