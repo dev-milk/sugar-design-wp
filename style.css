@@ -453,6 +453,7 @@ Footer
 }
 #footer .item {
   width: 30%;
+  
 }
 
 #footer p {
@@ -478,8 +479,8 @@ Footer
 }
 
 #footer .footer-logo {
-  width: 90%;
-  height: 90%;
+  width: 80%;
+  height: 80%;
 }
 
 #footer .copyright {
@@ -565,7 +566,8 @@ Back to top
 SP
 -------------------------------------------*/
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) { */
+@media screen and (max-width:768px) and ( max-width:1024px)  {
   header {
     max-width: 100%;
     height: auto;
@@ -624,11 +626,14 @@ SP
   }
 
   #footer .item {
-    width: 90%;
+    width: 80%;
+    text-align: center;
   }
 
   #footer .footer-logo {
   margin-bottom: 2rem;
+  width: 40%;
+  
 }
 
   #footer .footer-title{

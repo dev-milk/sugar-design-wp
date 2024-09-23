@@ -5,7 +5,7 @@
   <div class="content wrapper">
     <section class="item">
       <a href="index.php">
-        <img class="footer-logo" src="<?php echo get_theme_file_uri('img/site-logo.svg'); ?>" alt="サイトロゴ" />
+        <img class="footer-logo" src="<?php echo get_theme_file_uri('img/footer-logo.svg'); ?>" alt="フッターロゴ" />
       </a>
     </section>
     <section class="item">
