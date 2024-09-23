@@ -455,26 +455,15 @@ Footer
 #footer .content {
   display: flex;
   justify-content:space-between;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 #footer .item {
   width: 30%;
-  
 }
 
 #footer p {
   color:#fff;
-}
-
-#footer ul {
-  list-style: none;
-}
-
-#footer ul li {
-  float: left;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
 }
 
 #footer a {
