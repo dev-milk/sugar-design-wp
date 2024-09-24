@@ -24,4 +24,13 @@
   <section class="archive">
     <?php dynamic_sidebar('sidebar'); ?>
   </section>
+
+  <section class="archive">
+  <h3 class="side-title">Privacy Policy</h3>
+  <a href="<?php echo esc_url(home_url('/privacy-policy/')); ?>">
+      プライバシーポリシー
+     </a>
+  </section>
 </aside>
+
+
