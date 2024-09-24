@@ -2,7 +2,7 @@
   <a href="#top" class="gotop">TOP</a>
 </div>
 <footer id="footer">
-  <div class="content wrapper">
+  <div class="content">
     <section class="item">
       <a href="index.php">
         <img class="footer-logo" src="<?php echo get_theme_file_uri('img/footer-logo.svg'); ?>" alt="フッターロゴ" />
@@ -20,6 +20,11 @@
       <p>
         歴史が好きな有閑マダムを目指す普通の会社員です。<br>こちらのブログはWordPressオリジナルテーマのサンプルサイトであり、また歴史ブログでもあります。今はフランス史を中心に欧州の歴史を記事を書いています。
       </p>
+      <div class="footer-banner">
+      <a href="index.php">
+        <img src="<?php echo get_theme_file_uri('img/folio.jpg'); ?>" alt="問い合わせ" />
+      </a>
+      </div>     
     </section>
   </div>
   <div class="copyright">© devsugar.biz</a></div>
