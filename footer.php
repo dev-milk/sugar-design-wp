@@ -21,8 +21,8 @@
         歴史が好きな有閑マダムを目指す普通の会社員です。こちらのブログはWordPressオリジナルテーマのサンプルサイトです。このサイトでフランス史を中心とした歴史ブログを書いています。
       </p>
       <div class="footer-banner">
-      <a href="index.php">
-        <img src="<?php echo get_theme_file_uri('img/folio.jpg'); ?>" alt="問い合わせ" />
+      <a href="https://devmilk.biz/portfolio/">
+        <img src="<?php echo get_theme_file_uri('img/folio.jpg'); ?>" alt="ポートフォリオ" />
       </a>
       </div>     
     </section>
