@@ -10,15 +10,15 @@
     </section>
     <section class="item">
       <h3 class="footer-title">Contents</h3>
-      <a href="<?php echo esc_url(home_url()); ?>"><p>-Articles- 歴史記事</p></a>
-      <a href="<?php echo esc_url(home_url('/archive/')); ?>"><p>-Archive- 建築美術の記事</p></a>
-      <a href="<?php echo esc_url(home_url('/chronology/')); ?>"><p>-Chronology- 歴史年表</p></a>
-      <a href="<?php echo esc_url(home_url('/contact/')); ?>"><p>-Contact- お問い合わせ</p></a>
+      <a href="<?php echo esc_url(home_url()); ?>"><p><span>-Articles-</span>歴史記事</p></a>
+      <a href="<?php echo esc_url(home_url('/archive/')); ?>"><p><span>-Archive-</span>カテゴリー別記事</p></a>
+      <a href="<?php echo esc_url(home_url('/chronology/')); ?>"><p><span>-Chronology-</span>歴史年表</p></a>
+      <a href="<?php echo esc_url(home_url('/contact/')); ?>"><p><span>-Contact-</span>お問い合わせ</p></a>
     </section>
     <section class="item">
       <h3 class="footer-title">About</h3>
       <p>
-        歴史が好きな有閑マダムを目指す普通の会社員です。<br>こちらのブログはWordPressオリジナルテーマのサンプルサイトであり、また歴史ブログでもあります。今はフランス史を中心に欧州の歴史を記事を書いています。
+        歴史が好きな有閑マダムを目指す普通の会社員です。こちらのブログはWordPressオリジナルテーマのサンプルサイトです。このサイトでフランス史を中心とした歴史ブログを書いています。
       </p>
       <div class="footer-banner">
       <a href="index.php">
@@ -27,7 +27,9 @@
       </div>     
     </section>
   </div>
+  <div class="bottom-area">
   <div class="copyright">© devsugar.biz</a></div>
+  </div>
 </footer>
 </body>
 
