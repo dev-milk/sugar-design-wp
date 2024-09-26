@@ -314,7 +314,6 @@ main .list a:hover {
   opacity: 0.7;
 }
 
-
 main ul {
   display: flex;
   justify-content: flex-start;
@@ -325,7 +324,6 @@ main li {
   margin-right: 20px;
 }
 
-
 main .meta {
   font-size: 0.9rem;
   justify-content: end;
@@ -334,7 +332,6 @@ main .meta {
 main .text {
   padding: 10px 10px 30px;
 }
-
 
 .blog-img {
   text-align: center;
@@ -657,18 +654,42 @@ SP
     margin: 1rem;
     text-align: center;
   }
-  .post-list {
-    display: inline-block;
-    flex-direction: column;
-    width: 100%;
-  }
-
+  
 }
 
 /*-------------------------------------------
-Timeline　年表のCSS
+Archive カテゴリーごとの記事
 -------------------------------------------*/
+ul.category-list {
+  display: block;
+  padding: 0 0.2em;
+  margin-left: 1rem;
+  list-style-type: none;
+}
 
+ul.category-list li {
+  position: relative;
+  padding: 0.1em 0.3em 1em 1.3em;
+  font-size: 0.94rem;
+  font-weight: 540;
+}
+
+ul.category-list li::before {
+  position: absolute;
+  top: 0.5em;
+  left: 0;
+  display: block;
+  width: 8px;
+  height: 8px;
+  content: '';
+  border-right: 3px solid #B92125;
+  border-bottom: 3px solid #B92125;
+  transform: rotate(-45deg);
+}
+
+/*-------------------------------------------
+Chronology 年表
+-------------------------------------------*/
 .timeline {
   display: inline-block;
   flex-direction: column;
@@ -713,45 +734,6 @@ Timeline　年表のCSS
     border-radius: 100%;
   }
 }
-
-/*-------------------------------------------
-Post-list アーカイブ固定ページのCSS
--------------------------------------------*/
-.post-list {
-  display: flex;
-  margin-bottom: 20px;
-  padding: 20px;
-  box-sizing: border-box;
-  border-bottom: solid  1px #777;
-  font-size: 0.875rem;
-}
-
-.post-list figure {
-  margin-right: 20px;
-	width: 200px;
-	height: 200px;
-}
-
-.post-list figure a:hover {
-  opacity: 0.9;
-}
-
-.post-list figure img {
-  min-width: 100px;
-	max-width: 100%;
-	vertical-align: top;
-  border: solid 1.5px #b92125;
-}
-
-.text_content {
-  margin-top: -20px;
-}
-
-.readmore-post {
-  text-align: end;
-  margin: 5px 0 5px;
-}
-
 
 
 /*-------------------------------------------
