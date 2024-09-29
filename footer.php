@@ -18,7 +18,7 @@
     <section class="item">
       <h3 class="footer-title">About</h3>
       <p>
-        歴史が好きな有閑マダムを目指す普通の会社員です。こちらのブログはWordPressオリジナルテーマのサンプルサイトです。このサイトでフランス史を中心とした歴史ブログを書いています。
+        世界史は範囲が広いため、まずはフランス史を中心に西洋史のブログを書いていきます。史実を追いながら個人的に気になる歴史上の出来事や人物について掘り下げて記事を書いています。
       </p>
       <div class="footer-banner">
       <a href="https://devmilk.biz/portfolio/">
