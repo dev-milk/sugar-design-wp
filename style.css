@@ -690,49 +690,73 @@ ul.category-list li::before {
 /*-------------------------------------------
 Chronology 年表
 -------------------------------------------*/
-.timeline {
-  display: inline-block;
-  flex-direction: column;
-  width: 100%;
-  margin: 20px 0 80px;
-  list-style: none;
+.cp_timeline {
+	position: relative;
+	margin: 3em auto;
+	padding-bottom: 2em;
 }
-
-
-.timeline-content > p {
-  margin-bottom: 40px;
-  line-height: 2rem;
+.cp_timeline:before {
+	position: absolute;
+	top: 0px;
+	left: 45px;
+	width: 3px;
+	height: 100%;
+	content: '';
+	background: #B39D74;
 }
-
-/* for Desktop */
-@media ( min-width : 640px ){
-  .timeline > li {
-    overflow: hidden;
-    margin: 0;
-    position: relative;
-  }
-  .timeline-date {
-    width: 110px;
-    float: left;
-    margin-top: 20px;
-    font-size: 1.0rem;
-  }
-  .timeline-content {
-    width: 75%;
-    float: left;
-    border-left: 3px #e5e5d1 solid;
-    padding-left: 30px;
-  }
-  .timeline-content:before {
-    content: '';
-    width: 12px;
-    height: 12px;
-    background: #b92125;
-    position: absolute;
-    left: 106px;
-    top: 24px;
-    border-radius: 100%;
-  }
+.cp_timeline .timeline_item {
+	margin: 0px 0px 0px 80px;
+}
+.cp_timeline .timeline_item .time_date .time {
+	font-family: serif;
+	font-size: 6em;
+	font-weight: bold;
+	position: relative;
+	margin: 0;
+	letter-spacing: 3px;
+	color: rgba(233,30,99,0.1);
+}
+.cp_timeline .timeline_item .time_date .time:before {
+	position: absolute;
+	top: 50%;
+	left: -39px;
+	width: 10px;
+	height: 10px;
+	content: '';
+	-webkit-transform: rotate(45deg);
+	        transform: rotate(45deg);
+	border: 3px solid #b92125;
+	background: #fff;
+}
+.cp_timeline .timeline_item .time_date .flag {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 0;
+	margin-top: -60px;
+	color: #b92125;
+}
+.cp_timeline .timeline_item .desc {
+	font-size: 0.8em;
+	line-height: 20px;
+	margin-top: 10px;
+	padding-left: 20px;
+	border-left: 1px solid #b92125;
+}
+@media only screen and (max-width: 767px) {
+	.cp_timeline:before {
+		left: 15px;
+	}
+	.cp_timeline .timeline_item .time_date .time:before {
+		left: -30px;
+	}
+	.cp_timeline .timeline_item {
+		margin: 0px 0px 0px 40px;
+	}
+	.cp_timeline .timeline_item .desc {
+		padding-left: 0px;
+		border-top: 1px solid #b92125;
+		border-left: none;
+	}
 }
 
 
