@@ -21,7 +21,7 @@
         世界史は範囲が広いため、まずはフランス史を中心に西洋史のブログを書いていきます。史実を追いながら個人的に気になる歴史上の出来事や人物について掘り下げて記事を書いています。
       </p>
       <div class="footer-banner">
-      <a href="https://devmilk.biz/portfolio/">
+      <a href="https://devsugar.biz/portfolio/">
         <img src="<?php echo get_theme_file_uri('img/folio.jpg'); ?>" alt="ポートフォリオ" />
       </a>
       </div>     
