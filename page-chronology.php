@@ -16,7 +16,7 @@
             <li><a href="<?php echo esc_url(home_url('/chronology/')); ?>">BC9世紀～1200年年代</a></li>
             <li><a href="#">1300年代～</a></li>
           </ul>
-          <h2 class="wp-block-heading">BC9世紀～1200年代</h2>
+<h2 class="wp-block-heading">BC9世紀～1200年代</h2>
 <div class="cp_timeline">
 <div class="timeline_item">
 <div class="time_date">
@@ -249,7 +249,7 @@
   <li><a href="#">1300年～</a></li>
 </ul>
         
-        </article>
+</article>
 
     <?php endwhile;
     endif; ?>

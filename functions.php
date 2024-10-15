@@ -95,7 +95,7 @@ function my_login_logo_url() {
 
   /* 【管理画面】管理画面にもファビコンを表示 */
 function admin_favicon() {
-  echo '<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />';
+  echo '<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />';
  }
  add_action('admin_head', 'admin_favicon');
 
