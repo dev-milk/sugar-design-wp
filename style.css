@@ -573,6 +573,7 @@ md
   display:inline-block;
   border-top: #323232 solid 8px;
   position: relative;
+  
   }
 }
 
@@ -587,6 +588,7 @@ SP
     background: url(img/header-img-sp.jpg);
     background-size:cover; 
     display:inline-block;
+    background-position: center;
   }
 
   .site-text {
