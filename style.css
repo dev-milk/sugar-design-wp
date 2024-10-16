@@ -68,17 +68,6 @@ header::before{
   left: 0;
 }
 
-@media screen and (max-width: 1279px) {
-  header {
-  width: 100%;
-  height: 180px;
-  background:url(img/header-img-md.jpg);
-  background-size: cover;
-  display:inline-block;
-  border-top: #323232 solid 8px;
-  position: relative;
-  }
-}
 
 .blog-header {
   width: auto;
@@ -572,6 +561,22 @@ Back to top
 }
 
 /*-------------------------------------------
+md
+-------------------------------------------*/
+
+@media screen and (max-width: 1279px) {
+  header {
+  width: 100%;
+  height: 180px;
+  background:url(img/header-img-md.jpg);
+  background-size: cover;
+  display:inline-block;
+  border-top: #323232 solid 8px;
+  position: relative;
+  }
+}
+
+/*-------------------------------------------
 SP
 -------------------------------------------*/
 
@@ -615,7 +620,7 @@ SP
   }
 
   .author {
-    width:50%;
+    width:64%;
     padding-top: 30px;
     margin: 0 auto;
   }
