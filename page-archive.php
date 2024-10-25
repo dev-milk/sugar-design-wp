@@ -29,7 +29,20 @@
             <li><a href="<?php echo esc_url(home_url('/article03/')); ?>">ゲルマン民族大移動とメロヴィング朝の始まり</a></li>
             <li><a href="<?php echo esc_url(home_url('/article02/')); ?>">ガロ・ローマ 豊かな属州時代</a></li>
             <li><a href="<?php echo esc_url(home_url('/article01/')); ?>">カエサルのガリア遠征</a></li>
-          </ul>         
+          </ul>
+          
+          <h2 class="wp-block-heading">目次サンプル</h2>
+          <ul class="index-list">
+            <li><a href="#">目次１</a>
+            <ul class="inner-list">
+              <li>入れ子1</li>
+              <li>入れ子2</li>
+              <li>入れ子3</li>
+            </ul>          
+          </li>
+            <li><a href="#">目次２</a></li>
+            <li><a href="#">目次３</a></li>
+          </ul>
       </article>
 
     <?php endwhile;

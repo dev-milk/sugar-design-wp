@@ -665,6 +665,63 @@ SP
 }
 
 /*-------------------------------------------
+ 記事　目次
+-------------------------------------------*/
+ul.index-list {
+  display: block;
+  padding: 0 0.2em;
+  margin-left: 1rem;
+  list-style-type: none;
+}
+
+ul.index-list li {
+  position: relative;
+  padding: 0.1em 0.3em 0.2em 1.3em;
+  font-size: 1rem;
+  font-weight: 540;
+}
+
+ul.index-list li::before {
+  position: absolute;
+  top: 0.5em;
+  left: 0;
+  display: block;
+  width: 8px;
+  height: 8px;
+  content: '';
+  border-right: 3px solid #B92125;
+  border-bottom: 3px solid #B92125;
+  transform: rotate(-45deg);
+}
+
+ul.inner-list {
+  display: block;
+  padding: 0 0.2em;
+  margin-left: 0.6rem;
+  list-style-type: none;
+}
+
+ul.inner-list li {
+  position: relative;
+  padding: 0.3em 0.3em 0.2em 1em;
+  font-size: 0.9rem;
+  font-weight: 540;
+}
+
+ul.inner-list li::before {
+  position: absolute;
+  top: 0.5em;
+  left: 0;
+  display: block;
+  width: 8px;
+  height: 8px;
+  content: '';
+  border-right: 2px solid #333;
+  border-bottom: 2px solid #333;
+  transform: rotate(-45deg);
+}
+
+/*-------------------------------------------
 Archive カテゴリーごとの記事
 -------------------------------------------*/
 ul.category-list {
@@ -949,4 +1006,4 @@ reCapcha 位置調整
   margin-bottom: 60px;
 }
 
-
+/

@@ -187,3 +187,4 @@ function custom_breadcrumbs() {
   // パンくずリストを返す
   return '<div class="breadcrumbsWrap"><div class="breadcrumbs">' . $breadcrumbs . '</div></div>';
 }
+
