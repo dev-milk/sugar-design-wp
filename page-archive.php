@@ -12,14 +12,19 @@
     <?php if (have_posts()): while (have_posts()): the_post(); ?>
       <article>
         <h1 class="article-title"><?php the_title(); ?></h1>
-          <p class="text_excerpt">これまで書いてきた記事をカテゴリーごとに並べています。</p>
-        <h2 class="wp-block-heading">建築美術</h2>
+        <h2 class="wp-block-heading">このブログについて</h2>
+          <p class="text_excerpt">当初はフランス語とフランス史をテーマにしたブログを書く予定でしたが、歴史を紐解くうちに新しい発見が続き、「もっと深く知りたい！」という探求心に駆られるようになりました。そこで、これまで書いてきたガロ・ローマ時代やカールの戴冠など初期のフランス史記事につながるその後の史実を追いつつ、個人的に気になる歴史上の出来事や人物、歴史に端を発する建築美術について書いていくことにしました。</p>
+        <h2 class="wp-block-heading">記事リスト</h2>
+        <p class="text_excerpt">このブログの説明とカテゴリーごとに並べた記事リストになります。</p>
+        <h3 class="wp-block-heading">建築・美術</h3>
           <ul class="category-list">
             <li><a href="<?php echo esc_url(home_url('/article10/')); ?>">ロマネスクの魅力</a></li>
           </ul>
 
-        <h2 class="wp-block-heading">歴史</h2>
+        <h3 class="wp-block-heading">歴史</h3>
           <ul class="category-list">
+            <li><a href="<?php echo esc_url(home_url('/article12/')); ?>">中世を騒がせた王妃アリエノール・ダキテーヌ②</a></li>
+            <li><a href="<?php echo esc_url(home_url('/article11/')); ?>">中世を騒がせた王妃アリエノール・ダキテーヌ①</a></li>
             <li><a href="<?php echo esc_url(home_url('/article09/')); ?>">ノルマン＝コンクエスト</a></li>
             <li><a href="<?php echo esc_url(home_url('/article08/')); ?>">カペー朝の始まりと十字軍遠征</a></li>
             <li><a href="<?php echo esc_url(home_url('/article07/')); ?>">フランク王国の終焉とノルマン人の南下</a></li>
@@ -29,20 +34,7 @@
             <li><a href="<?php echo esc_url(home_url('/article03/')); ?>">ゲルマン民族大移動とメロヴィング朝の始まり</a></li>
             <li><a href="<?php echo esc_url(home_url('/article02/')); ?>">ガロ・ローマ 豊かな属州時代</a></li>
             <li><a href="<?php echo esc_url(home_url('/article01/')); ?>">カエサルのガリア遠征</a></li>
-          </ul>
-          
-          <h2 class="wp-block-heading">目次サンプル</h2>
-          <ul class="index-list">
-            <li><a href="#">目次１</a>
-            <ul class="inner-list">
-              <li>入れ子1</li>
-              <li>入れ子2</li>
-              <li>入れ子3</li>
-            </ul>          
-          </li>
-            <li><a href="#">目次２</a></li>
-            <li><a href="#">目次３</a></li>
-          </ul>
+          </ul>         
       </article>
 
     <?php endwhile;
