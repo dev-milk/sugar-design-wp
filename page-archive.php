@@ -13,16 +13,13 @@
       <article>
         <h1 class="article-title"><?php the_title(); ?></h1>
         <h2 class="wp-block-heading">このブログについて</h2>
-          <p class="text_excerpt">当初はフランス語とフランス史をテーマにしたブログを書く予定でしたが、歴史を紐解くうちに新しい発見が続き、「もっと深く知りたい！」という探求心に駆られるようになりました。そこで、これまで書いてきたガロ・ローマ時代やカールの戴冠など初期のフランス史記事につながるその後の史実を追いつつ、個人的に気になる歴史上の出来事や人物、歴史に端を発する建築美術について書いていくことにしました。</p>
+          <p class="text_excerpt">当初はフランス語とフランス史をテーマにしたブログを書く予定でしたが、歴史を紐解くうちに新しい発見が続き、「もっと深く知りたい！」という探求心に駆られるようになりました。そこで、これまで書いてきた初期のフランス史を継承しつつ、個人的に気になる歴史上の人物に焦点を当て、史実を組み入れながら彼らの生涯を書くことにしました。また美術史にも興味がありますので、記事の進捗に合わせてその時代の美術・建築についても書いて行きます。歴史ファンみなさまの心に刺されば幸いです。</p>
         <h2 class="wp-block-heading">記事リスト</h2>
         <p class="text_excerpt">このブログの説明とカテゴリーごとに並べた記事リストになります。</p>
-        <h3 class="wp-block-heading">建築・美術</h3>
-          <ul class="category-list">
-            <li><a href="<?php echo esc_url(home_url('/article10/')); ?>">ロマネスクの魅力</a></li>
-          </ul>
 
         <h3 class="wp-block-heading">歴史</h3>
           <ul class="category-list">
+            <li><a href="<?php echo esc_url(home_url('/article13/')); ?>">中世を騒がせた王妃アリエノール・ダキテーヌ③</a></li>
             <li><a href="<?php echo esc_url(home_url('/article12/')); ?>">中世を騒がせた王妃アリエノール・ダキテーヌ②</a></li>
             <li><a href="<?php echo esc_url(home_url('/article11/')); ?>">中世を騒がせた王妃アリエノール・ダキテーヌ①</a></li>
             <li><a href="<?php echo esc_url(home_url('/article09/')); ?>">ノルマン＝コンクエスト</a></li>
@@ -34,7 +31,12 @@
             <li><a href="<?php echo esc_url(home_url('/article03/')); ?>">ゲルマン民族大移動とメロヴィング朝の始まり</a></li>
             <li><a href="<?php echo esc_url(home_url('/article02/')); ?>">ガロ・ローマ 豊かな属州時代</a></li>
             <li><a href="<?php echo esc_url(home_url('/article01/')); ?>">カエサルのガリア遠征</a></li>
-          </ul>         
+          </ul>
+          
+          <h3 class="wp-block-heading">建築・美術</h3>
+          <ul class="category-list">
+            <li><a href="<?php echo esc_url(home_url('/article10/')); ?>">ロマネスクの魅力</a></li>
+          </ul>
       </article>
 
     <?php endwhile;

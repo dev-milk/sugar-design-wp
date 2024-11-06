@@ -1006,3 +1006,22 @@ reCapcha 位置調整
   margin-bottom: 60px;
 }
 
+/*-------------------------------------------
+フォーム
+-------------------------------------------*/
+ input[type='submit'] {
+  -webkit-appearance: none;
+  border: 1px solid #b92125;
+  background-color: #b92125;
+  color: #fff;
+  border-radius: 5px;
+  width: 100%;
+}
+
+ input[type=text], input[type=email], input[type=number], input[type=search], textarea, select, .search-edit {
+  padding: 11px;
+  border: 1px solid #a6a6a6;
+  border-radius: var(--cocoon-basic-border-radius);
+  font-size: inherit;
+  width: 100%;
+}

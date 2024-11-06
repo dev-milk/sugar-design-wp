@@ -19,10 +19,11 @@
       <h3 class="footer-title">About</h3>
       <p>
         西洋史を追いながら個人的に気になる歴史上の出来事や人物について掘り下げて記事を書いています。
-        このブログは作者のオリジナルテーマです。テーマ作成のお仕事も引き受けております。
+        このブログはWordPressで作成していますが、テーマはオリジナルです。<br>
+        WordPressテーマ作成のお仕事も引き受けております。
       </p>
       <div class="footer-banner">
-      <a href="https://devsugar.biz/portfolio/contact.html">
+      <a href="<?php echo esc_url(home_url('/contact/')); ?>">
         <img src="<?php echo get_theme_file_uri('img/mail.png'); ?>" alt="メール" />
       </a>
       </div>     

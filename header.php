@@ -30,7 +30,7 @@
             <a href="<?php echo esc_url(home_url('/chronology/')); ?>"><i class="fa-solid fa-clock mr-8"></i>Chronology</a>
           </li>
           <li>
-            <a href="https://devsugar.biz/portfolio/contact.html" target="_blank"><i class="mr-8"></i>Contact</a>
+            <a href="<?php echo esc_url(home_url('/contact/')); ?>"><i class="mr-8"></i>Contact</a>
           </li>
         </ul>
       </div>
