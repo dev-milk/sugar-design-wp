@@ -9,19 +9,14 @@
       </a>
     </section>
     <section class="item">
-      <h3 class="footer-title">Contents</h3>
       <a href="<?php echo esc_url(home_url()); ?>"><p><span>-Articles-</span>歴史記事</p></a>
       <a href="<?php echo esc_url(home_url('/archive/')); ?>"><p><span>-Archive-</span>カテゴリー別記事</p></a>
       <a href="<?php echo esc_url(home_url('/chronology/')); ?>"><p><span>-Chronology-</span>歴史年表</p></a>
+      <a href="<?php echo esc_url(home_url('/privacy-policy/')); ?>"><p><span>-Privacy Policy-</span>プライバシーポリシー</p></a>
+      <a href="https://devsugar.biz/portfolio/index.html"><p><span>-Portfolio-</span>ポートフォリオ</p></a>
       <a href="<?php echo esc_url(home_url('/contact/')); ?>"><p><span>-Contact-</span>お問い合わせ</p></a>
     </section>
     <section class="item">
-      <h3 class="footer-title">About</h3>
-      <p>
-        西洋史を追いながら個人的に気になる歴史上の出来事や人物について掘り下げて記事を書いています。
-        このブログはWordPressで作成していますが、テーマはオリジナルです。<br>
-        WordPressテーマ作成のお仕事も引き受けております。
-      </p>
       <div class="footer-banner">
       <a href="<?php echo esc_url(home_url('/contact/')); ?>">
         <img src="<?php echo get_theme_file_uri('img/mail.png'); ?>" alt="メール" />
