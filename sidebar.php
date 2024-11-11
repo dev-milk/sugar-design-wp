@@ -3,7 +3,7 @@
     <img src="<?php echo esc_url(get_theme_file_uri('img/auther.svg')); ?>" alt="作者プロフィール">
     <h3 class="side-title">Auther</h3>
     <p class="profile">
-      歴史が好きな有閑マダムを目指す普通の会社員です。歴史記事を書きながらWEBデザイン・コーディングもやっています。</p>
+      旅をしながら記事を書く有閑マダムを夢見る歴史好きな普通の会社員です。仕事でWebライティング・WEBデザイン・コーディングをやっていますので、WordPressオリジナルテーマのお仕事も承っております。</p>
       <p>
       <a href="https://www.pinterest.jp/devsugar_biz/">
       <img src="<?php echo get_theme_file_uri('img/pinterest-btn.png'); ?>" alt="ピンタレスト">

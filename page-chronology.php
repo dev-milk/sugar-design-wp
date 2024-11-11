@@ -16,19 +16,19 @@
             <li><a href="<?php echo esc_url(home_url('/chronology/')); ?>">BC9世紀～1200年年代</a></li>
             <li><a href="#">1300年代～</a></li>
           </ul>
-<h2 class="wp-block-heading">BC9世紀～1200年代</h2>
-<div class="cp_timeline">
-<div class="timeline_item">
-<div class="time_date">
-<p class="time">BC900</p>
-<p class="flag">BC9世紀</p>
-</div>
-<div class="desc">
-<p>ケルト人が集落ごとに集まって生活</p>
-</div>
-</div>
-<div class="timeline_item">
-<div class="time_date">
+          <h2 class="wp-block-heading">BC9世紀～1200年代</h2>
+          <div class="cp_timeline">
+            <div class="timeline_item">
+              <div class="time_date">
+                <p class="time">BC900</p>
+                <p class="flag">BC9世紀</p>
+              </div>
+              <div class="desc">
+                <p>ケルト人が集落ごとに集まって生活</p>
+              </div>
+            </div>
+            <div class="timeline_item">
+              <div class="time_date">
 <p class="time">BC52</p>
 <p class="flag">BC52年</p>
 </div>
